@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+    position: fixed;
+    overflow-y: scroll;
+    background-image: url('eiffelTowerBackground.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header {
+    top: 50%;
+    left: 50%;
+}
+
+.header div {
+    float: left;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.login {
+    position: center;
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+}
+
+.login input [type=text] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.login input[type=button] {
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input [type=button]:hover {
+    opacity: 0.8;
+}
+
+.login input [type=button]:active {
+    opacity: 0.6;
+}
+
+.login input [type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.login input [type=password]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.login input [type=button]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+::-moz-xul-anonymous-block {
+    color: rgba(255, 255, 255, 0.8)
+}
