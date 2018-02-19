@@ -1,89 +1,80 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
 body {
-    position: fixed;
-    overflow-y: scroll;
+    margin: auto;
+    background-color: #052F48;
     background-image: url('eiffelTowerBackground.jpg');
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
 }
 
-header {
-    top: 50%;
-    left: 50%;
-}
-
-.header div {
-    float: left;
+.header {
+    position: absolute;
+    top: 40px;
+    left: 32px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .login {
-    position: center;
-    top: calc(50% - 75px);
-    left: calc(50% - 50px);
-    height: 150px;
-    width: 350px;
+    top: 25px;
+    float: right;
     padding: 10px;
 }
 
-.login input [type=text] {
-    width: 250px;
-    height: 30px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+.login input[type=text] {
+    width: 246px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 2px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    padding: 4px;
+    padding: 6px;
+    margin-top: 16px;
+    margin-right: 16px;
 }
 
 .login input[type=button] {
+    float: right;
     width: 260px;
-    height: 35px;
+    height: 45px;
     background: #fff;
     border: 1px solid #fff;
     cursor: pointer;
     border-radius: 2px;
     color: #a18d6c;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     padding: 6px;
-    margin-top: 10px;
+    margin-top: 16px;
+    margin-right: 16px;
 }
 
-.login input [type=button]:hover {
+.login input[type=button]:hover {
     opacity: 0.8;
 }
 
-.login input [type=button]:active {
+.login input[type=button]:active {
     opacity: 0.6;
 }
 
-.login input [type=text]:focus {
+.login input[type=text]:focus {
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-.login input [type=password]:focus {
+.login input[type=password]:focus {
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-.login input [type=button]:focus {
+.login input[type=button]:focus {
     outline: none;
-}
-
-::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-::-moz-xul-anonymous-block {
-    color: rgba(255, 255, 255, 0.8)
 }
